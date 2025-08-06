@@ -1,3 +1,57 @@
+
+header {
+  background-color: #f2f3eb;
+  padding: 20px 0;
+  text-align: right;
+  position: relative;
+  z-index: 1001;
+}
+
+nav a {
+  color: #314b2f;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 40px;
+  border-radius: 40px;
+  width: 85%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 40px;
+}
+
+.menu-grid a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  text-decoration: none;
+}
+
+.menu-grid a:hover {
+  text-decoration: underline;
+}
+
+
 .hero {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1564604761383-d0c5d44bb05c') no-repeat center center;
   background-size: cover;
