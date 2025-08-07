@@ -158,30 +158,48 @@ nav a:hover {
 
 .cards-ecossistema {
   display: flex;
-  background-color: #314b2f;
-  flex-wrap: wrap;
-  gap: 10px;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #314b2f;
+  padding: 60px 30px;
 }
 
 .card {
-  flex: 1;
-  min-width: 200px;
   background-color: #fff;
-  border: 1.5px solid #4A6B32;
+  border: 1px solid #314b2f;
   border-radius: 12px;
-  padding: 25px;
+  padding: 30px 20px;
+  max-width: 300px;
+  flex: 1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  position: relative;
+  text-align: center;
+}
+
+.card::before {
+  content: "“";
+  font-size: 40px;
+  color: #314b2f;
+  position: absolute;
+  top: 10px;
+  left: 20px;
 }
 
 .card .titulo {
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 500;
   color: #2c3e1f;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .card p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
+  color: #000;
+  text-align: center;
+}
+
+.card p strong {
+  font-weight: bold;
 }
