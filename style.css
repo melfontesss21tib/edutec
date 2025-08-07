@@ -113,7 +113,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   background: #f7f7f7;
   flex-wrap: wrap;
 }
@@ -122,7 +122,7 @@ nav a:hover {
   background: white;
   border-radius: 16px;
   padding: 20px;
-  max-width: 280px;
+  max-width: 200px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
@@ -226,4 +226,62 @@ nav a:hover {
 
 .card p strong {
   font-weight: bold;
+}
+
+#floresta {
+  background-color: #f8f8f2;
+  padding: 80px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container-floresta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.texto-floresta {
+  flex: 1 1 550px;
+  color: #2e4a2b;
+}
+
+.titulo-floresta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.titulo-floresta h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #2e4a2b;
+}
+
+.titulo-floresta img {
+  width: 40px;
+  height: 40px;
+}
+
+.texto-floresta p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #2d3e27;
+}
+
+.texto-floresta strong {
+  font-weight: bold;
+  color: #1e3923;
+}
+
+.imagem-floresta img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 40px;
+  object-fit: cover;
 }
